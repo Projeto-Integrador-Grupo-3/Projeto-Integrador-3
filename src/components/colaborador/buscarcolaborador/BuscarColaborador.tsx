@@ -1,14 +1,13 @@
 function BuscarColaborador() { 
 
   return ( 
-    <div className="min-h-screen flex items-center justify-center bg[#F5F5F5]"> 
+    <div className="min-h-screen flex items-center justify-center bg-[#F5F5F5]"> 
       <div className="w-full max-w-sm p-6 bg-[#B4E1FF] rounded-lg shadow-lg"> 
-        <h2 className="text-2xl font-semibold text-center mb-6 text-[#694873]">Buscar Colaborador</h2> 
+        <h2 className="text-2xl font-semibold text-center mb-6 text-[#36311F]">Buscar Colaborador</h2> 
 
         <form> 
           <div className="mb-4"> 
-            <label htmlFor="colaborador" className="block text-sm font-medium text-[#694873] text-center"> 
-              Colaborador 
+            <label htmlFor="colaborador" className=""> 
             </label> 
             <input 
               type="text" 
